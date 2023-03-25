@@ -1,0 +1,8 @@
+{
+  "ConfirmReferralResponse": {
+    "DateSelectionRadio": "//div[contains(text(), '{{}}')]/following-sibling::div[input]/input",
+    "InnerTableConfirmIcon": "//referral-table/descendant::tr[2]/descendant::table[contains(@id, 'ReferralsInnerTable')]/descendant::tr[2]/descendant::action/descendant::button[@title = 'Confirm Referral']",
+    "SendButton": "//confirm-appointment/descendant::button[@id='submitBtn']",
+    "StatusVerification": "//table[@id = 'Referrals']/descendant::tr[2]/descendant::status-labels/descendant::span"
+  }
+}

@@ -1,0 +1,94 @@
+<Playlist Version="2.0">
+  <Rule Name="Includes" Match="Any">
+    <Rule Match="All">
+      <Property Name="Solution" />
+      <Rule Match="Any">
+        <Rule Match="All">
+          <Property Name="Project" Value="RovicareTestProject" />
+          <Rule Match="Any">
+            <Rule Match="All">
+              <Property Name="Namespace" Value="RovicareTestProject.Tests.PatientList" />
+              <Rule Match="Any">
+                <Rule Match="All">
+                  <Property Name="Class" Value="TestSuite_PatientList_PatientListPage" />
+                  <Rule Match="Any">
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="RovicareTestProject.Tests.PatientList.TestSuite_PatientList_PatientListPage.Test_SearchField" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="Test_SearchField(&quot;P1|P2|P3|P4&quot;,&quot;Me|Bharuka, Vaibhav|All&quot;,&quot;Selected (4)&quot;)" />
+                      </Rule>
+                    </Rule>
+                  </Rule>
+                </Rule>
+                <Rule Match="All">
+                  <Property Name="Class" Value="TestSuite_PatientList_ActionItems_2" />
+                  <Rule Match="Any">
+                    <Property Name="TestWithNormalizedFullyQualifiedName" Value="RovicareTestProject.Tests.PatientList.TestSuite_PatientList_ActionItems_2.Test_PatientList_ImportPatient" />
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="RovicareTestProject.Tests.PatientList.TestSuite_PatientList_ActionItems_2.Test_PatientList_ScheduleTransport" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="Test_PatientList_ScheduleTransport(&quot;Chandler Post Acute And Rehabilitation&quot;,&quot;Outpatient&quot;,&quot;Skilled Nursing(SNF)&quot;,&quot;true&quot;,&quot;Case Management|Counseling Services&quot;,&quot;Geriatric Psych|Adult Women&quot;,&quot;Testing Note&quot;,&quot; Updated Testing Note&quot;,&quot;accept&quot;,&quot;null&quot;,&quot;null&quot;,&quot;Approved&quot;,&quot;null&quot;)" />
+                      </Rule>
+                    </Rule>
+                  </Rule>
+                </Rule>
+                <Rule Match="All">
+                  <Property Name="Class" Value="TestSuite_PatientList_ActionItems_1" />
+                  <Rule Match="Any">
+                    <Property Name="TestWithNormalizedFullyQualifiedName" Value="RovicareTestProject.Tests.PatientList.TestSuite_PatientList_ActionItems_1.Test_PatientList_AI_SendReferralTest" />
+                  </Rule>
+                </Rule>
+              </Rule>
+            </Rule>
+            <Rule Match="All">
+              <Property Name="Namespace" Value="RovicareTestProject.Tests.SuperAdmin" />
+              <Rule Match="Any">
+                <Property Name="Class" Value="TestSuite_UserManagement_SuperAdmin" />
+              </Rule>
+            </Rule>
+            <Rule Match="All">
+              <Property Name="Namespace" Value="RovicareTestProject.Tests.Incoming" />
+              <Rule Match="Any">
+                <Rule Match="All">
+                  <Property Name="Class" Value="ExecutionCommonTest" />
+                  <Rule Match="Any">
+                    <Property Name="TestWithNormalizedFullyQualifiedName" Value="RovicareTestProject.Tests.Incoming.ExecutionCommonTest.Test_Chat" />
+                  </Rule>
+                </Rule>
+                <Rule Match="All">
+                  <Property Name="Class" Value="TeatSuite_ChatFunction_IncomingPage" />
+                  <Rule Match="Any">
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="RovicareTestProject.Tests.Incoming.TeatSuite_ChatFunction_IncomingPage.ChatIncomingTest" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="ChatIncomingTest(&quot;Member, Pacf&quot;,&quot;Chandler Post Acute And Rehabilitation&quot;,&quot;Bharuka, Vaibhav&quot;)" />
+                      </Rule>
+                    </Rule>
+                  </Rule>
+                </Rule>
+                <Rule Match="All">
+                  <Property Name="Class" Value="TestSuite_SearchField_incomingPage" />
+                  <Rule Match="Any">
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="RovicareTestProject.Tests.Incoming.TestSuite_SearchField_incomingPage.Search_field" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="Search_field(&quot;RR2|RR1|RR3&quot;,&quot;Me|Bharuka, Vaibhav|All&quot;,&quot;Selected (3)&quot;,&quot;Selected (9)&quot;,&quot;Referral Received|Accepted|Confirmed|Transport Scheduled|Admitted|Pending|In Review|Rejected|Cancelled&quot;)" />
+                      </Rule>
+                    </Rule>
+                  </Rule>
+                </Rule>
+              </Rule>
+            </Rule>
+            <Property Name="Namespace" Value="RovicareTestProject.Tests.Login" />
+            <Rule Match="All">
+              <Property Name="Namespace" Value="RovicareTestProject.Tests.OutgoingChat" />
+              <Rule Match="Any">
+                <Property Name="Class" Value="TestSuit_ProviderSelectionList_Outgoing" />
+              </Rule>
+            </Rule>
+          </Rule>
+        </Rule>
+      </Rule>
+    </Rule>
+  </Rule>
+</Playlist>

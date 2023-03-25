@@ -1,0 +1,14 @@
+{
+
+  "ModuleName1": "Outgoing Page",
+  "ModuleName2": "Patient List Page",
+  //"DestinationHandleName": "Jack, Jack Jack", 
+  "DestinationHandleName": "Member, Pacf", //Beta
+  ///"OriginHandleName": "Rovicare, Arizona", 
+  "OriginHandleName": "Bharuka, Vaibhav", //Beta
+  //"DestinationName": "Friendship Village Of Tempe",
+  //"DestinationName":"Terros Health - Mcdowell Health Center",
+  "DestinationName": "Chandler Post Acute And Rehabilitation" //beta
+  // "ModuleName4": "Medical Records",
+
+}

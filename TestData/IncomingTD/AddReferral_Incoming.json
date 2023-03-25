@@ -1,0 +1,44 @@
+{
+
+
+  "FirstName": "Richard",
+  "MiddleName": "Sino",
+  "LastName": "Grate",
+  "DOB": "01-25-1967",
+  "Referrer_OrganizationName": "FRIENDSHIP VILLAGE OF TEMPE",
+  "SSN_PID": "9117",
+  "IndexOfInsuranceProvider": "2",
+
+  //Above data is common for positive as well as negative data test
+
+  //Section under Positive data type use for positive data test,   
+
+
+
+  "TestDataType+": "Positive",
+  "MobileNumber": [ "9420333191" ],
+  "HomeNumber": [ "1234567810" ],
+  "Email_ID": [ "Richard.Grate@rovicare.com" ],
+
+
+  // Section under negative data type use for negative data test
+
+  "TestDataType-": "Negative",
+  "MobileNumber_N": [ "942033319", "abcd123654" ],
+  "HomeNumber_N": [ "123456789", "asd1234567" ],
+  "Email_ID_N": [ "Richard.Graterovicarecom" ],
+
+  //*************************************************AddReferral_PatientList + PreferredProviderPage**********************************
+
+
+  "ReferralAsO": "Outgoing",
+  "ReferralAsI": "Incoming",
+  "ModuleP": "PreferredProviderList",
+  "ModulePl":"PatientList"
+
+
+
+
+
+
+}

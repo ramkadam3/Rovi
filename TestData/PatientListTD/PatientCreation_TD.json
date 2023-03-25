@@ -1,0 +1,115 @@
+{
+  "Firstname": "Firstname",
+  "Middlename": "Middlename",
+  "Lastname": "Lastname",
+  "DateOfBirth": "9-06-1900",
+  "Gender": "male",
+  "SSN_PID": "A87I",
+
+  "DiagnosisPopUpData": [
+    {
+      "Code": "502",
+      "Date": "07-05-2022",
+      "Description": "SampleDescription1"
+    },
+    {
+      "Code": "503",
+      "Date": "07-05-2022",
+      "Description": "SampleDescription2" 
+    }
+  ],
+  "AllergyPopupData": [
+    {
+      "Category": "Medication",
+      "AllergyName": "Sulfadiazine",
+      "Type": "Allergy",
+      "Severity": "Moderate",
+      "Status": "Active"
+    },
+    {
+      "Category": "Food",
+      "AllergyName": "PandaPhobia",
+      "Type": "Allergy",
+      "Severity": "Mild",
+      "Status": "Active"
+    }
+  ],
+  "InsuranceFieldsData": [
+    {
+      "InsuranceName": "Aetna Group",
+      "PolicyHolder": "Self",
+      "PlanName": "lic",
+      "GroupNumber": "1231",
+      "GroupName": "Yellow Group",
+      "InsuranceMemberID": "sdasfas",
+      "IsActive": "true"
+    },
+    {
+      "InsuranceName": "Arizona Complete Health",
+      "PolicyHolder": "Self",
+      "PlanName": "lic",
+      "GroupNumber": "1231",
+      "GroupName": "Blue Group",
+      "InsuranceMemberID": "a1b2c3d4",
+      "IsActive": "true"
+    }
+  ],
+  "ImmunizationPopupData": [
+    {
+      "DateGiven": "07-20-2022",
+      "Immunization": "serpentivitis",
+      "Step": "100",
+      "ConsentStatus": "Self",
+      "LocationGiven": "Amsterdam"
+    }
+  ],
+  "AddMedicationPopupData": [
+    {
+      "DrugId": "12",
+      "DrugName": "Cokaene",
+      "Strength": "100",
+      "StrengthUnit": "MG",
+      "StartDate": "06-28-2022",
+      "EndDate": "07-26-2022",
+      "Description": "Pack my box with five dozen liquor jugs",
+      "Schedules": [
+        {
+          "Dose": "3",
+          "DoseUnit": "Tablet",
+          "ScheduleType": "Everyday",
+          "Frequency": "with meals",
+          "StartDate": "07-03-2022",
+          "EndDate": "07-26-2022"
+        },
+        {
+          "Dose": "",
+          "DoseUnit": "",
+          "ScheduleType": "",
+          "Frequency": "",
+          "StartDate": "",
+          "EndDate": ""
+        }
+      ]
+    },
+    {
+      "DrugId": "34",
+      "DrugName": "Ayl As Dee",
+      "Strength": "500",
+      "StrengthUnit": "MG",
+      "StartDate": "",
+      "EndDate": "",
+      "Description": "",
+      "Schedules": [
+        {
+          "Dose": "",
+          "DoseUnit": "",
+          "ScheduleType": "",
+          "Frequency": "",
+          "StartDate": "",
+          "EndDate": ""
+        }
+      ]
+    }
+  ]
+
+}

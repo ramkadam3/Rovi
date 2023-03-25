@@ -1,0 +1,7 @@
+{
+    "ReferralResponsePopup" :
+    {
+        "AddAppointmentDate" : "//span[@title = 'Add More Email']",
+        "RemoveAppointmentDatesIcon" : "//input[@id = 'AppointmentDates{{}}']/following-sibling::span/span"
+    }
+}

@@ -1,0 +1,18 @@
+{
+  "ChatTD": "\\TestData\\CommonTD\\ChatTD.json",
+  "SendReferral_TD_Flow1": "\\TestData\\PatientListTD\\SendReferralTD\\SendReferral_TD_Flow1.json",
+  "SendReferral_TD_Flow2": "\\TestData\\PatientListTD\\SendReferralTD\\SendReferral_TD_Flow2.json",
+  "SendReferral_TD_Flow3": "\\TestData\\PatientListTD\\SendReferralTD\\SendReferral_TD_Flow3.json",
+  "Chat_TD": "\\TestData\\PatientListTD\\Chat_TD.json",
+  "ScheduleTransport_TD": "\\TestData\\PatientListTD\\ScheduleTransport_TD.json",
+  "NotesTD": "\\TestData\\CommonTD\\NotesTD.json",
+  "MedicalRecords_TD": "\\TestData\\PatientListTD\\MedicalRecords_TD.json",
+  "SearchField_TD": "\\TestData\\PatientListTD\\SearchFieldTD.json",
+  "LoginCredentials": "\\TestData\\LoginCredentialsTD.json",
+  "ShortListFacility_TD": "\\TestData\\PatientListTD\\ShortListFacilityTD.json",
+  "ProviderSelectionList_TD": "\\TestData\\OutgoingPage_TD\\ProviderSelection_List_TD.json",
+  "AddReferral_IncomingPage_TD": "\\TestData\\IncomingTD\\AddReferral_Incoming.json",
+  "ImportPatientTD": "\\TestData\\PatientListTD\\ImportPatient_TD.json",
+  "AddOrganization_TD": "\\TestData\\SuperAdminTD\\AddOrganization.json",
+  "pathTD": "\\TestData\\ImportPatient_Files\\"
+}

@@ -1,0 +1,50 @@
+{
+  "FileName": "Upload",
+
+  "MaxMemberMessage": [
+
+    "Success! Member information added.",
+    "Try to add a maximum of members as per  plan."
+  ],
+
+
+  "DataType": "Positive",
+  "DataType-": "Negative",
+
+
+  "Category": "ABHC",
+
+
+  "ProviderType": "Skilled Nursing(SNF)|Telemedicine|Substance Use|Home Health",
+
+
+  "Insurances": "Arizona Complete Health|Banner University Health Plans|Aetna Group",
+
+  //string ServicesOffered = "Acute Rehab|Companion Care|Attendant Care";
+  "ServicesOffered": "Acupuncture|Alzheimer or Dementia|Case management",
+  "ServiceSetting": "Outpatient|Telemedicine|Mobile Provider",
+
+  "SpecialProgramAccepted": "Adult Women|Family Caregiver",
+  "AgeGroupAccepted": "Adult|Adolescent|Children",
+  "GenderAccepted": "Female|Male|Gender Neutral",
+  "PatientUniqueIdentifier": "First Name|Last Name|SSN|DOB",
+  "SendReferral_DefaultCheckedFeature": "Send Referral|Sent Referral By Text|Send Referral Via Email|Send Referral Via Fax|Medicare Rating Enabled|Resend Referral|Upload Medical Record|Show Report|Chat|Notes|Notification|Mobile Application|Configure Historical Records",
+  "SendReferralAllFeature": "Share Referrals|Share Medical Records|Compulsory Insurance For Patient|Compulsory Services Needed and Special Program|Show Special Program Needed|Rejection Reason In Referral|Disable Auto Confirm Referral|Partial Referral Confirmation|Add Referral|Send Referral|Sent Referral By Text|Send Referral Via Email|Send Referral Via Fax|Medicare Rating Enabled",
+  "ReceiveReferralFeatureList": "Receive Referral|Member Assign To Referral For Receive Referral|Add Referral",
+  "ReceiveReferralFeatureDefaultSelectedList": "Member Assign To Referral For Receive Referral",
+  "RemainingFeatureAndsettingsList": "Message Board|Enable Patient Feedback Reminder|Configure Send Referral Form|Auto Referral Discharge|Disable Referral For Services|Additional Services In My Organization|Facesheet In Medical Records|Display Export Facesheet|Indicate No Capacity|Destination Setting|Preferred Provider List|Import Patient By C-CDA|Import Patient By Facesheet|Import Patient By Excel Sheet|Referral History|Configure Historical Records|Survey|Mobile Application|Notification|Notes|Chat|Show Report|Upload Medical Record|Tag Feature|Send Medical Records|Receive Medical Records|Appointment Dashboard|Insurance Provider",
+  "RemainingFeatureAndSettinsCkeckedDefault": "Configure Historical Records|Mobile Application|Notification|Notes|Chat|Show Report|Upload Medical Record",
+  "ImportPatientByExcelSheetSubFeature": "Import Patient Notification|Edit Patient Record|Add Patient|Override Patient Record|Automatic Override Patient Record",
+  "EnablePatientFeedbackReminderSubFeature": "Origin|Destination",
+  "ProviderSettings": "Max Saved Search Allowed,10|Max Number Of Organization Members,10|Max Number Of Document Uploaded,10|Max Size Of Document Uploaded in MB,5|Provider Summary Report Receiver EmailIds(Comma Separated),",
+  "OrganizationRoleList": "Test ROle|accounted|New Role|OneOctRolE|Organization Admin|Case Manager",
+  "LoginMode": "Rovicare",
+  "EMRtype": "Rovicare",
+
+  //"DestinationName": "Terros Health -Mcdowell Health Center",
+  "DestinationName": "Chandler Post Acute And Rehabilitation",
+
+  "ChatDisablePlaceholderText": "Chat: Please contact Rovicare Support Team for the feature",
+  //"UploadFilePath": "D:\testing\rovicaretesting\TestData\SuperAdminTD"
+
+}

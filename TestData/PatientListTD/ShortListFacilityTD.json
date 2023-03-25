@@ -1,0 +1,34 @@
+{
+  "TD1_FacilityType": "Behavioral",
+  "TD2_FacilityType": "Medical",
+
+  "TD1_Zipcode": "85202",
+  "TD2_Zipcode": "85203",
+  "TD3_Zipcode": "85027",
+  "TD4_Zipcode": "sh*090",
+
+  "TD1_Miles": "50",
+  "TD2_Miles": "10",
+
+  "TD1_ProviderType": "Skilled Nursing(SNF)",
+  "TD2_ProviderType": "Assisted Living",
+  "TD3_ProviderType": "Acute Rehab",
+  "TD4_ProviderType": "Seriously Mentally Ill",
+
+  "TD1_ServicesNeeded": "Acute Transitional Case Care|Intensive case management|Suicide prevention services",
+  //"TD2_ServicesNeeded": "Acute Transitional Case Care|Intensive Case Management|Suicide Prevention Services",
+  //"TD3_ServicesNeeded": "Acute Transitional Case Care|Intensive Case Management|Suicide Prevention Services",
+
+  "Insurance": "Aetna Group|Highmark Group|Wellpoint Inc. Group",
+  //"TD2_Insurance": "Aetna Group|Highmark Group|Wellpoint Inc. Group",
+  //"TD3_Insurance": "Aetna Group|Highmark Group|Wellpoint Inc. Group",
+
+  "SpecialPrograms": "Autism Spectrum Disorder|LGBTQ clients|Pregnant",
+  //"TD2_SpecialPrograms": "LGBTQ",
+  //"TD3_SpecialPrograms": "Clients",
+  "SaveSearchName": "TestFavSearch",
+
+  "Genders": "Male|Female|Gender Neutral|Unspecified",
+  "AgeGroups": "Adolescent|Young Adult|Children"
+
+}

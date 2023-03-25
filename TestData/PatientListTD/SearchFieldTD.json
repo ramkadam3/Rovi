@@ -1,0 +1,19 @@
+{
+
+
+  "Tags": "P1|P2|P3|P4",
+
+  "TrackedBy": "Me|Bharuka, Vaibhav|All",
+
+
+  //Incoming page search field testdata
+  //"Tags_Incoming": "REFRRAL2|REFERRAL1",
+  "Tags_Incoming": "RR2|RR1|RR3",
+  "Status_Incoming": "Referral Received|Accepted|Confirmed|Transport Scheduled|Admitted|Pending|In Review|Rejected|Cancelled",
+
+
+  "PlaceHolderWhenAllSelectedTag_incoming": "Selected (3)",
+  "PlaceHolderWhenAllSelectedTag_Patient": "Selected (4)",
+  "PlaceHolderWhenAllSelectedStatus_incoming": "Selected (9)"
+
+}

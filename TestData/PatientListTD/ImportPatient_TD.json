@@ -1,0 +1,15 @@
+{
+  "DataType+": "Positive",
+  "DataType-": "Negative",
+  "FileName": "RovicarePatientImportTemplate.xlsx",
+  //"FileName": "New XLSX Worksheet.xlsx",
+  "FileName-": "New XLS Worksheet.xls",
+  //"UploadFilePath": "D:\\testing\\testing\\rovicaretesting\\TestData\\ImportPatient_Files",
+  //"SelectByText": "CPR - Patient Import",
+  "SelectByText": "RovicarePatientImportTemplate",
+  //"DownloadedFile": "CPR - Patient Import.xlsx",
+  "DownloadedFile": "RovicarePatientImportTemplate.xlsx",
+  "DownloadedFilePath": "C:\\Users\\User\\Downloads",
+  "RestrictImportMessage": "File can not be imported. Please contact Rovicare support."
+  //"UploadingFilePath": "D:\\testing\\testing\\rovicaretesting\\TestData\\ImportPatient_Files"
+}

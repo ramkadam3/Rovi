@@ -1,0 +1,17 @@
+{
+  "ProviderName": "Chandler Post Acute And Rehabilitation",
+  //"ProviderName": "Terros Health - Mcdowell Health Center",
+  //"ProviderName": "Jh Hospitals",
+  "ReferralType": "Outpatient",
+  "ProviderType": "Skilled Nursing(SNF)",
+  "PreAuthorization": "true",
+  "ServicesNeeded": "Case Management|Counseling Services",
+  "SpecialPrograms": "Geriatric Psych|Adult Women",
+  "Note": "Testing Note",
+  "UpdatedNote": " Updated Testing Note",
+  "AcceptReject": "accept",
+  //"AppointmentDateTime_Origin": "12-15-2022 03:00 PM",
+  //"UpdateAppointmentDateTime_Origin": "12-16-2022 12:00 PM",
+  //"UpdateAppointmentDateTime_Destination": "12-17-2022 03:00 PM"
+  "InsuranceAuthorizationStatus": "Approved"
+}

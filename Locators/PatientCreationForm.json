@@ -1,0 +1,53 @@
+{
+    "AddPatientPopup":
+    {
+        "AddPatientButton" : "//add-patient-dialog/descendant::button[@name = 'create']"
+    },
+    "PatientCreationForm":
+    {
+        "RemoveInsuranceField" : ".//a[contains(@class, 'removeButton show-pointer') and contains(@title, 'Remove')]",
+        "AddInsuranceField" : ".//i[contains(@class, 'addMorePatientFormFieldsButtom')]",
+        "Allergy" : 
+        {
+            "AddMoreFieldsButton" : "//add-allergy-intolerance/descendant::i[contains(@class, 'fa-plus-circle')]",
+            "SubmitButton" : "//add-allergy-intolerance/descendant::button[@name = 'create']",
+            "CancelButton" : "//add-allergy-intolerance/descendant::button[@name = 'cancel']"
+        },
+        "Diagnosis" : 
+        {
+            "AddMoreFieldsButton" : "//add-diagnosis/descendant::i[contains(@class, 'fa-plus-circle')]",
+            "SubmitButton" : "//add-diagnosis/descendant::button[@name = 'create']",
+            "CancelButton" : "//add-diagnosis/descendant::button[@name = 'cancel']"
+        },
+        "Immunization" : 
+        {
+            "AddMoreFieldsButton" : "//add-immunization-old/descendant::i[contains(@class, 'fa-plus-circle')]",
+            "SubmitButton" : "//add-immunization-old/descendant::button[@name = 'create']",
+            "CancelButton" : "//add-immunization-old/descendant::button[@name = 'cancel']"
+        },
+        "Medication": 
+        {
+          "AddMoreFields": "//add-medication/descendant::div[contains(@class, 'addMorePatientFormFieldsButtom')]/i",
+          "AddMoreSchedules": "//add-medication/descendant::i[@title = 'Add Schedules'][{{}}]",
+          "StrengthUnit": "//add-medication/descendant::label[text() = 'Strength'][{{}}]/following-sibling::span"
+        },
+        "ProgressNote": 
+        {
+          "AddProgressNote": "//add-progress-note/descendant::i[contains(@class, 'fa-plus-circle')]",
+          "SubmitButton": "//add-progress-note/descendant::button[@name = 'create']",
+          "CancelButton": "//add-progress-note/descendant::button[@name = 'cancel']"
+        },
+        "MedicalInformation" : 
+            {
+                "Notes" : "//div[@id = 'MDInfo']/descendant::textarea[@name = 'note']"
+            }   
+    },
+    "DateOfAdmission" : 
+    {
+        "RootDiv": "//div[contains(@class, 'xdsoft_datetimepicker xdsoft_noselect xdsoft_') and contains(@style, 'display: block')]",
+        "ExpandMonthsButton" : "//div[contains(@class, 'xdsoft_datetimepicker xdsoft_noselect xdsoft_') and contains(@style, 'display: block')]/descendant::div[@class = 'xdsoft_label xdsoft_month']",
+        "SelectAMonth" : "//div[contains(@class, 'xdsoft_datetimepicker xdsoft_noselect xdsoft_') and contains(@style, 'display: block')]/descendant::div[@class = 'xdsoft_label xdsoft_month']/descendant::div[contains(@class, 'xdsoft_monthselect')]/div/div[@data-value = '{{}}']",
+        "ExpandYearsButton" : "//div[contains(@class, 'xdsoft_datetimepicker xdsoft_noselect xdsoft_') and contains(@style, 'display: block')]/descendant::div[@class = 'xdsoft_label xdsoft_year']/descendant::div[contains(@class, 'xdsoft_yearselect')]/div/div[@data-value = '{{}}']",
+        "SelectAYear" : "//div[contains(@class, 'xdsoft_datetimepicker xdsoft_noselect xdsoft_') and contains(@style, 'display: block')]/descendant::div[@class = 'xdsoft_label xdsoft_year']/descendant::div[contains(@class, 'xdsoft_yearselect')]/div/div[@data-value = '{{}}']"
+    }
+}

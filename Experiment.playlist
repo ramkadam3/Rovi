@@ -1,0 +1,36 @@
+<Playlist Version="2.0">
+  <Rule Name="Includes" Match="Any">
+    <Rule Match="All">
+      <Property Name="Solution" />
+      <Rule Match="Any">
+        <Rule Match="All">
+          <Property Name="Project" Value="RovicareTestProject" />
+          <Rule Match="Any">
+            <Rule Match="All">
+              <Property Name="Namespace" Value="RovicareTestProject.Tests.PatientList" />
+              <Rule Match="Any">
+                <Rule Match="All">
+                  <Property Name="Class" Value="TestSuite_PatientList_PatientListPage" />
+                  <Rule Match="Any">
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="RovicareTestProject.Tests.PatientList.TestSuite_PatientList_PatientListPage.Test_SearchField" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="Test_SearchField(&quot;P1|P2|P3|P4&quot;,&quot;Me|Bharuka, Vaibhav|All&quot;,&quot;Selected (4)&quot;)" />
+                      </Rule>
+                    </Rule>
+                  </Rule>
+                </Rule>
+              </Rule>
+            </Rule>
+            <Rule Match="All">
+              <Property Name="Namespace" Value="RovicareTestProject.Tests.Incoming" />
+              <Rule Match="Any">
+                <Property Name="Class" Value="TestSuite_SearchField_incomingPage" />
+              </Rule>
+            </Rule>
+          </Rule>
+        </Rule>
+      </Rule>
+    </Rule>
+  </Rule>
+</Playlist>
