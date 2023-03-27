@@ -1,0 +1,25 @@
+name: Build and Test
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+
+    - name: Setup .NET Core SDK
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: '3.1'
+
+    - name: Build
+      run: dotnet build
+
+    - name: Test
+      run: dotnet test
