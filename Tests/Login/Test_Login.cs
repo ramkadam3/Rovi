@@ -14,7 +14,7 @@ namespace RovicareTestProject.Tests.Login
     [Parallelizable(ParallelScope.All)]
     [TestFixture]
     public class Test_Login : BaseClass
-    {
+    {//RAm
 
         [SetUp]
         public void SetUp()
